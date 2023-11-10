@@ -6,7 +6,6 @@ from .config.db import engine
 
 from .routers import events
 
-
 app = FastAPI(
     title = "College Portfolio API",
     docs_url = "/documentation",
